@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasteSharp", "PasteSharp\PasteSharp.csproj", "{86BC07F9-0A42-4D90-9050-E0B8D899FE07}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BernamyWebClient", "BernamyWebClient\BernamyWebClient.csproj", "{7A427672-6DEA-4018-9F0D-A148E3AA6C42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BernamySoup", "BernamySoup\BernamySoup.csproj", "{41F04FFC-5A8F-423E-AB62-A2C986BD083F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,16 +13,24 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{86BC07F9-0A42-4D90-9050-E0B8D899FE07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{86BC07F9-0A42-4D90-9050-E0B8D899FE07}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{86BC07F9-0A42-4D90-9050-E0B8D899FE07}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{86BC07F9-0A42-4D90-9050-E0B8D899FE07}.Debug|x86.Build.0 = Debug|Any CPU
-		{86BC07F9-0A42-4D90-9050-E0B8D899FE07}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{86BC07F9-0A42-4D90-9050-E0B8D899FE07}.Release|Any CPU.Build.0 = Release|Any CPU
-		{86BC07F9-0A42-4D90-9050-E0B8D899FE07}.Release|x86.ActiveCfg = Release|Any CPU
-		{86BC07F9-0A42-4D90-9050-E0B8D899FE07}.Release|x86.Build.0 = Release|Any CPU
+		{41F04FFC-5A8F-423E-AB62-A2C986BD083F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41F04FFC-5A8F-423E-AB62-A2C986BD083F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41F04FFC-5A8F-423E-AB62-A2C986BD083F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{41F04FFC-5A8F-423E-AB62-A2C986BD083F}.Debug|x86.Build.0 = Debug|Any CPU
+		{41F04FFC-5A8F-423E-AB62-A2C986BD083F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41F04FFC-5A8F-423E-AB62-A2C986BD083F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41F04FFC-5A8F-423E-AB62-A2C986BD083F}.Release|x86.ActiveCfg = Release|Any CPU
+		{41F04FFC-5A8F-423E-AB62-A2C986BD083F}.Release|x86.Build.0 = Release|Any CPU
+		{7A427672-6DEA-4018-9F0D-A148E3AA6C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A427672-6DEA-4018-9F0D-A148E3AA6C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A427672-6DEA-4018-9F0D-A148E3AA6C42}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7A427672-6DEA-4018-9F0D-A148E3AA6C42}.Debug|x86.Build.0 = Debug|Any CPU
+		{7A427672-6DEA-4018-9F0D-A148E3AA6C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A427672-6DEA-4018-9F0D-A148E3AA6C42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A427672-6DEA-4018-9F0D-A148E3AA6C42}.Release|x86.ActiveCfg = Release|Any CPU
+		{7A427672-6DEA-4018-9F0D-A148E3AA6C42}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = PasteSharp\PasteSharp.csproj
+		StartupItem = BernamyWebClient\BernamyWebClient.csproj
 	EndGlobalSection
 EndGlobal

@@ -20,20 +20,14 @@
 
 using System;
 
-namespace PasteSharp
+namespace BernamySoup
 {
-	public abstract  class Bridge
-	{
-		public string  GetUrlRequest { get;  protected set;}
-		protected IBernami Session;
-
-		public Bridge() {
-			#if SOUP_SHARP
-			    Session = new SoupSession();
-			#else
-			    Session = new WebClientSession();
-			#endif
-		}
-	}
+    public interface IBernamySoup
+    {
+        string Bpase(string content, string language, string expiry);
+        string FpasteScsys(string content, string nick, string channel ,string summary);
+        string DebianPaste(string content, string nick, string language, string expiry);
+        string Fpaste(string content, string nick, string language ,string expiry);
+    }
 }
 

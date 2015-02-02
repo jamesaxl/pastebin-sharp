@@ -19,23 +19,14 @@
 // Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 
 using System;
-using System.Text.RegularExpressions;
 
-namespace PasteSharp
+namespace BernamyWebClient
 {
-	public class Bpaste : Bridge
-	{
-		public Bpaste () : base()
-		{
-		}
-
-		public void SendContentRequest(string content, string language, string expiry) {
-			var match = Regex.Match(Session.Bpase (content, language, expiry), @"/raw/([0-9a-zA-Z]+)",RegexOptions.IgnoreCase);
-
-			if (match.Success) {
-			    GetUrlRequest = "https://bpaste.net/show/" + match.Groups [1].Value;
-			}
-		}
-	}
+    public interface IBernamyWebClient
+    {
+        string FpasteScsys(string content, string nick, string channel ,string summary);
+        string DebianPaste(string content, string nick, string language, string expiry);
+        string Fpaste(string content, string nick, string language ,string expiry);
+    }
 }
 
